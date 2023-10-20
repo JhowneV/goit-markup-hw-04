@@ -5,6 +5,8 @@
     --slate: #434455;
     --cloud: #F4F4FD;
     --ocean: #404BBF;
+    --lightslate: #8E8F99;
+    --grey: #2e2f42;
 }
 
 /*GENERAL STYLING*/
@@ -17,9 +19,8 @@ body {
     padding-left: 0;
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
-
-
 /*END OF GENERAL STYLING*/
 
 /*HEADER AND FOOTER STYLING*/
@@ -107,6 +108,9 @@ body {
 
 /*HERO SECTION STYLING*/
 .hero {
+    background: linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)), url(../images/people.ofice1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -130,22 +134,11 @@ body {
     text-align: center;
 }
 
-/*END OF HERO SECTION*/
-
-/*Hero Styling*/
-.hero-button {
-    background: var(--iris);
-    border: none;
-    border-radius: 4px;
-    color: var(--white);
-}
-
 .hero-button:hover {
     cursor: pointer;
     background: var(--ocean);
 }
-
-/*End of Hero Styling*/
+/*END OF HERO SECTION STYLING*/
 
 /*Main Styling*/
 .main-title {
@@ -159,15 +152,21 @@ body {
     text-transform: capitalize;
 }
 
-/*Team Section Styling*/
-.title {
-    color: var(--navy);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.5;
-    /* 120% */
-    letter-spacing: 0.4px;
+/*ABOUT SECTION STYLING*/
+.about-icon {
+    padding: 24px 100px;
     text-align: center;
+    background-color: var(--cloud);
+}
+/*END OF ABOUT SECTION STYLING*/
+
+/*TEAM SECTION STYLING*/
+.our-team {
+    background-color: var(--cloud);
+}
+
+.our-team img {
+    display: block;
 }
 
 .p-text {
@@ -182,15 +181,60 @@ body {
     color: var(--navy);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.5;
-    /* 120% */
+    line-height: 1.5;/* 120% */
     letter-spacing: 0.4px;
+    margin-top: 0px;
 }
 
-/*End of Team Section Styling*/
-/*End of Main Styling*/
+.team-title {
+    background-color: var(--white);
+    text-align: center;
+    margin-top: 0px;
+    padding: 32px 0px;
+}
 
-/*Footer Styling*/
+.team-title-socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-title-socials-icons {
+    background-color: var(--iris);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--white);
+    
+}
+/*END OF TEAM SECTION STYLING*/
+/*END OF MAIN STYLING*/
+
+/*CUSTOMERS STYLING*/
+.customers-icons {
+    border: 1px solid;
+    color:var(--lightslate);
+    padding: 16px 32px;
+}
+
+.customers-icons svg {
+    fill: var(--lightslate);
+}
+
+.customers-icons:hover, 
+.customers-icons:focus {
+    border-color: var(--iris);
+}
+
+.customers-icons:hover svg, 
+.customers-icons:focus svg {
+    fill: var(--iris);
+}
+/*END OF CUSTOMERS STYLING*/
+
+/*FOOTER STYLNG*/
 .logostudio-footer {
     color: var(--cloud);
     height: 312px;
@@ -206,4 +250,19 @@ body {
     background: var(--navy);
 }
 
-/*End of Footer Styling*/
+.socialmedia {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;/* 150% */
+    letter-spacing: 0.32px;
+}
+
+.socialmedia-icons {
+    display: flex;
+    align-items: center;
+    justify-items: center;  
+}
+
+/*END OF FOOTER SYLNG*/
+
