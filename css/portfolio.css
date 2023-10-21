@@ -166,6 +166,11 @@
 /*FOOTER STYLING*/
 .logostudio-footer {
     color: var(--cloud);
+    height: 312px;
+}
+
+.footer-logo-text {
+    margin: 101.5px;
 }
 
 .footer-text {
@@ -174,7 +179,35 @@
     letter-spacing: 0.32px;
 }
 
+.footer-logo-text {
+    margin-top: 101.5px;
+    width: 540px;
+    margin: 101.5px, 189.5px;
+
+}
+
 .background {
     background: var(--navy);
 }
-/*END OF FOOTER STYLING*/
+
+.socialmedia {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.32px;
+    width: 804px;
+    flex-shrink: 0;
+    margin-top: 150px;
+}
+
+.socialmedia-icons {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-items: center;
+    margin-bottom: 189.5px;
+    gap: 16px;
+
+}
+/*END OF FOOTER STYLNG*/

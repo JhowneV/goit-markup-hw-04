@@ -272,10 +272,11 @@ body {
 }
 
 .socialmedia-icons {
-    display: flex;
-    align-items: center;
+    display: inline-flex;
+    align-items: flex-start;
     justify-items: center; 
     margin-bottom: 189.5px;
+    gap: 16px;
     
 }
 
