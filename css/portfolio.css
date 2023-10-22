@@ -163,7 +163,7 @@
 }
 /*END OF PORTFOLIO STYLING*/
 
-/*FOOTER STYLING*/
+/*FOOTER STYLNG*/
 .logostudio-footer {
     color: var(--cloud);
     height: 312px;
@@ -208,6 +208,18 @@
     justify-items: center;
     margin-bottom: 189.5px;
     gap: 16px;
+
+}
+
+.team-title-socials-icons {
+    background-color: var(--iris);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--white);
 
 }
 /*END OF FOOTER STYLNG*/
